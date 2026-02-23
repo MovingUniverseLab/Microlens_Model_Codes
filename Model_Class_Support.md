@@ -1,3 +1,6 @@
+VBM* = VBMicrolensing for model generation and RTModel for Fitting
+MM = MulensModel
+
 | Feature                                                | BAGLE | VBM* | MM | pyLIMA |
 |--------------------------------------------------------|-------|------|----|--------|
 | Static Binary Lenses and Sources                       | Y     | Y    | Y  | Y      |

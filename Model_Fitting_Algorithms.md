@@ -1,4 +1,4 @@
-Make table showing the model-fitting approaches for each of the packages. 
+# Model-fitting approaches
 
 ## Overview
 

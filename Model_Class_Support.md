@@ -21,12 +21,4 @@ MM = MulensModel
 | BSPL                                                   | Y     | Y    | N  | N      |         |            |
 | PSBL                                                   | Y     | Y    | N  | N      |         |            |
 | BSBL                                                   | Y     | N    | N  | N      |         |            |
-|--------------------------------------------------------|-------|------|----|--------|---------|------------|
-| Fitting Algorithms                                     | Y     | N    | N  | Y      | Y       | Y          |
-|                                                        | NS    |      |    | DE + MCMC | LM   | MCMC       |
-|--------------------------------------------------------|-------|------|----|--------|---------|------------|
 
-DE - Differential Evolution
-MCMC - Markov Chain Monte Carlo
-LM - Levenberg–Marquardt
-NS - Nested Sampling

@@ -16,21 +16,21 @@ This page details the fitting algorithms/processes supported by various microlen
 
 ## Package Specific Notes
 
-### BAGLE
+### `BAGLE`
 
 [GitHub Link: https://github.com/MovingUniverseLab/BAGLE_Microlensing](https://github.com/MovingUniverseLab/BAGLE_Microlensing)  
 [Documentation Link: https://bagle.readthedocs.io/en/latest/](https://bagle.readthedocs.io/en/latest/)
 
 
 
-### VBM
+### `VBM`
 
 [GitHub Link: https://github.com/valboz/VBMicrolensing](https://github.com/valboz/VBMicrolensing)  
 [Documentation Link: https://github.com/valboz/VBMicrolensing/tree/main/docs](https://github.com/valboz/VBMicrolensing/tree/main/docs)
 
 
 
-### MulensModel
+### `MulensModel`
 
 [GitHub Link: https://github.com/rpoleski/MulensModel](https://github.com/rpoleski/MulensModel)  
 [Documentation Link: https://rpoleski.github.io/MulensModel/](https://rpoleski.github.io/MulensModel/)

@@ -5,7 +5,7 @@ The table below contains the input time system, how time is handled for parallax
 
 | Code           | Input time system      | Time handling for parallax | Parallax frame        | Refs. |
 |----------------|------------------------|----------------------------|-----------------------|-------|
-| BAGLE          | MJD                    | BJD_TDB                    | Heliocentric?         | [1](https://ui.adsabs.harvard.edu/abs/2025arXiv251203364L/abstract) |
+| BAGLE          | MJD                    | BJD_TDB                    | Barycentric           | [1](https://ui.adsabs.harvard.edu/abs/2025arXiv251203364L/abstract) |
 | VBM / RTModel  | HJD' (JD' optional)    | Internally JD <-> HJD      | Barycentric           | [2](https://github.com/valboz/VBMicrolensing/blob/main/docs/python/Parallax.md)      |
 | MulensModel    | Any (if no parallax)   | BJD_TDB                    | Geocentric (`t0_par`) | [3](https://rpoleski.github.io/MulensModel/MulensModel.mulensdata.html)      |
 | pyLIMA         | JD                     | Depends on dataset?        | Geocentric?           | [4](https://pylima.readthedocs.io/en/latest/source/Conventions.html) |

@@ -9,10 +9,10 @@ The table below contains the input time system, how time is handled for parallax
 | VBM / RTModel  | HJD' (JD' optional)    | Internally JD <-> HJD      | Barycentric           | [2](https://github.com/valboz/VBMicrolensing/blob/main/docs/python/Parallax.md)      |
 | MulensModel    | Any (if no parallax)   | BJD_TDB                    | Geocentric (`t0_par`) | [3](https://rpoleski.github.io/MulensModel/MulensModel.mulensdata.html)      |
 | pyLIMA         | JD                     | Depends on dataset?        | Geocentric?           | [4](https://pylima.readthedocs.io/en/latest/source/Conventions.html) |
-| eesunhong      | ... | | Heliocentric
-| muLAN          | HJD                    | MJD_TDB                    | 
-| microlux       | ...
-| microjax       | ... | | Heliocentric
+| eesunhong      | ... | ... | Heliocentric
+| muLAN          | HJD                    | MJD_TDB                    | ...
+| microlux       | ... | ... | ...
+| microjax       | ... | ... | Heliocentric
 
 When retrieving ephemeris, BAGLE, MulensModel and pyLIMA obtain the Solar System Barycenter (SSB) position with the Astropy function `get_body_barycentric()`, which depends on the time scale (tipically BJD_TDB).
 The user has to provide BJD times (or at least HJD) for the parallax calculations.
